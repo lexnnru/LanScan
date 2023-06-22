@@ -30,6 +30,11 @@ namespace LanScan
         {
              string  faatures;
         }
+        public void newfature2()
+        {
+            string faatures2="wedfwedf";
+            int i=faatures2.Length;
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         { int id=0;
