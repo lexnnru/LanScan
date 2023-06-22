@@ -36,6 +36,8 @@ namespace LanScan
                 id++;
                 Thread.Sleep(100);
                 MessageBox.Show("da");
+///koment add
+
             }
             while (id <= 5);
         }
