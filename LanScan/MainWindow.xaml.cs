@@ -30,11 +30,6 @@ namespace LanScan
         {
              string  faatures;
         }
-        public void newfature2()
-        {
-            string faatures2="wedfwedf";
-            int i=faatures2.Length;
-        }
 
         /// <summary>
         /// Код растет и разростается
