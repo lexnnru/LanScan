@@ -26,6 +26,10 @@ namespace LanScan
         {
             InitializeComponent();
         }
+        public void newfature()
+        {
+             string  faatures;
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         { int id=0;
@@ -41,6 +45,9 @@ namespace LanScan
 ///третий
             }
             while (id <= 5);
+
+
+         
         }
     }
 }
