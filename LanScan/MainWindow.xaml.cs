@@ -37,7 +37,7 @@ namespace LanScan
                 Thread.Sleep(100);
                 MessageBox.Show("da");
 ///koment add
-
+///второй
             }
             while (id <= 5);
         }
