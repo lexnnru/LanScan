@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,6 +25,19 @@ namespace LanScan
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        { int id=0;
+
+            do
+            {
+                tb.Text = tb.Text + id.ToString();
+                id++;
+                Thread.Sleep(100);
+                MessageBox.Show("lala");
+            }
+            while (id <= 5);
         }
     }
 }
