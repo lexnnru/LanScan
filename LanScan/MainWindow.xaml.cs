@@ -31,6 +31,12 @@ namespace LanScan
              string  faatures;
         }
 
+        /// <summary>
+        /// Код растет и разростается
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+
         private void Button_Click(object sender, RoutedEventArgs e)
         { int id=0;
 
