@@ -27,6 +27,7 @@ namespace LanScan
             InitializeComponent();
         }
 // master
+//second
 
         private void Button_Click(object sender, RoutedEventArgs e)
         { int id=0;
