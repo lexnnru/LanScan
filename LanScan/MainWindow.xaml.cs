@@ -35,7 +35,7 @@ namespace LanScan
                 tb.Text = tb.Text + id.ToString();
                 id++;
                 Thread.Sleep(100);
-                MessageBox.Show("lala");
+                MessageBox.Show("la");
             }
             while (id <= 5);
         }
