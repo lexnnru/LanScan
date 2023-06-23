@@ -28,6 +28,13 @@ namespace LanScan
         }
 // master
 //second
+//3
+//4
+//5
+//6
+//slave
+//her
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         { int id=0;
